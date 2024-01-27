@@ -1,0 +1,50 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,100&display=swap');
+</style>
+ *{
+     font-family: "Poppins", sans-serif;
+     background: black;
+     color: white;
+     text-align:center;
+ 
+ }
+
+body{
+    margin: 30px;
+    padding: 30px;  
+}
+
+ h1{
+    font-size: large;
+ }
+p{
+    font-size: small;
+}
+
+.profile{
+    border-radius: 50% ;
+}
+
+.btm{
+    display: blocks;
+    text-decoration: none;
+    padding: 20px 5px;
+    color: white;
+    background: black;
+    margin: 25px;
+    box-shadow: 5px 10px pink;
+    cursor: pointer;
+} 
+.btm:hover{
+    background: purple ;
+    color: white ; 
+}
+.social-icons{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+  
+.social-icon{
+    margin: 5px;
+    cursor: pointer;
+}
